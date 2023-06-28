@@ -1,0 +1,82 @@
+.bold {
+  font-weight: bold;
+}
+
+.cursive {
+  font-style: italic;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 750px;
+  height: 64px;
+  background-color: grey;
+  margin-left: 100px;
+}
+
+.btn {
+  width: 60px;
+  height: 30px;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+}
+
+
+
+main {
+  display: inline-block;
+  flex-direction: column;
+}
+
+.definition {
+  display: flex;
+  width: 450px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 20px 0 20px 100px;
+}
+
+nav {
+  width: 240px;
+  height: 150px;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 20px 0px 20px 50px;}
+
+#container {
+  display: flex ;
+}
+
+.def-ninja {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.specific-def{
+  flex: 4;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#likes {
+  margin-bottom: 10px;
+}
+
+
+
+
+
