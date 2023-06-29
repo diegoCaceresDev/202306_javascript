@@ -22,3 +22,5 @@ function remove(element){
 function liked(element) {
   alert("Ninja was liked")
 }
+
+
