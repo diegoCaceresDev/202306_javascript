@@ -6,7 +6,31 @@
   font-style: italic;
 }
 
+.login{
+  background-color: rgb(39, 39, 255);
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  height: 25px;
+}
 
+.logout{
+  background-color: rgb(1, 1, 236);
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  height: 25px;
+}
+
+#likes {
+  width: 80px;
+  height: 25px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: yellow;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+}
 
 header {
   display: flex;
@@ -20,7 +44,6 @@ header {
 
 .btn {
   width: 60px;
-  height: 30px;
   border: 3px solid black;
   box-shadow: 2px 2px black;
 }
@@ -72,10 +95,35 @@ h2{
   margin-bottom: 0px;
 }
 
+h3 {
+  font-size: 22px;
+  line-height: 10px;
+  margin-bottom: 20px;
+}
+
+.add-def{
+  margin-left: 10px;
+}
+
 #likes {
   margin-bottom: 10px;
 }
 
+a:hover {
+  transform: scale(0.95);
+}
+
+#add-def {
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+  text-align: center;
+  padding-top: 5px;
+  background-color: green;
+  font-weight: bold;
+}
 
 
 

@@ -12,7 +12,7 @@
   <header>
     <h1>Dojonary</h1>
     <input type="search" name="Search" placeholder="Search">
-    <button id="login-btn" class="btn">Login</button>
+    <a id="login-btn" class="btn login" onclick="logout(this)">Login</a>
   </header>
   <div id="container">
     <main>
@@ -21,7 +21,7 @@
           <h2>ninja</h2>
           <p class="cursive">noun</p>
           <p>Plural: <span class="cursive">ninjas</span></p>
-          <button class="btn" id="likes"> 13 likes</button>
+          <a class="btn  bold" id="likes" onclick="liked(this)"> 13 likes</a>
         </div>
         <div class="specific-def">A practitioner skilled in the <br>
           <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
@@ -32,16 +32,21 @@
           <h2>ninja</h2>
           <p class="cursive">noun</p>
           <p>Plural: <span class="cursive">ninjas</span></p>
-          <button class="btn" id="likes"> 37 likes</button>
+          <a class="btn  bold" id="likes" onclick="liked(this)"> 37 likes</a>
         </div>
-        <div class="specific-def"> <p>A <a href="#">programmer</a> who breaks <br>
-        down problems with <a href="#">zen</a>-like <br>
-      focus</p>
+        <div class="specific-def">
+          <p>A <a href="#">programmer</a> who breaks <br>
+            down problems with <a href="#">zen</a>-like <br>
+            focus</p>
         </div>
       </div>
     </main>
     <nav>
-      <div class="add-def"></div>
+      <div class="add-def">
+        <h3>Dojonary is</h3>
+        <h3>defined by <span class="bold">YOU</span></h3>
+        <a class="btn" id="add-def" onclick="remove(this)">Add definition</a>
+      </div>
     </nav>
   </div>
   <script src="index.js"></script>
