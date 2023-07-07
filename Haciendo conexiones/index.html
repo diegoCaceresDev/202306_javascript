@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina de Perfil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="nav-title">Perfil</h1>
+    <ul class="nav-links">
+      <li><a href="#" class="whitecolor">Inicio</a></li>
+      <li><a href="#" class="active whitecolor">My Profile</a></li>
+      <li><a href="#" class="whitecolor">Encontrar conexiones</a></li>
+    </ul>
+    <button class="btn">Cerrar sesión</button>
+  </header>
+  <div class="principal">
+    <main>
+      <div class="container-profile">
+        <div class="head"></div>
+        <div class="main-block">
+          <img src="../Haciendo conexiones/images/diego-s.png" alt="profile" id="profile">
+          <h1>Diego Caceres</h1>
+          <p><img src="../Haciendo conexiones/icons/map-marker.png" alt="ubicacion"> Seatle</p>
+          <p>Developer | Engineer | Problem Solver</p>
+          <p>On my ninja path!</p>
+          <img src="../Haciendo conexiones/icons/gear.png" alt="conf"> <a href="#" id="edit">edit profile</a>
+        </div>
+      </div>
+      <div class="container-profile" id="education">
+        <div class="head" id="educ-head">
+          <p>Education</p>
+        </div>
+        <div class="educ-content">
+          <h2>Coding Dojo - Full Stack Bootcamp</h2>
+          <p id="date">Dec 2019 - Mar 2020</p>
+          <p>Tripe black belt in Python, MERN, and C#...</p>
+        </div>
+      </div>
+    </main>
+    <nav>
+      <div class="container-nav" id="con-request">
+        <div class="nav-head">
+          <span class="circle"> 2 </span><p>Connection Request</p>
+        </div>
+        <div class="nav-content">
+            <div class="nav-flex">
+              <img src="../Haciendo conexiones/images/todd-s.jpg" alt="Todd Photo" class="circle-photo"> <h3>Todd E</h3> 
+              <div>
+                <img src="../Haciendo conexiones/icons/accept-circle.png" alt="accept" class="circle-accept"> <img src="../Haciendo conexiones/icons/close-circle.png" alt="close" class="circle-close">
+              </div>
+            </div>
+        </div> 
+        <div class="nav-content">
+          <div class="nav-flex">
+            <img src="../Haciendo conexiones/images/phil-s.jpg" alt="Philk Photo" class="circle-photo"> <h3>Philk K</h3> 
+            <div>
+              <img src="../Haciendo conexiones/icons/accept-circle.png" alt="accept" class="circle-accept"> <img src="../Haciendo conexiones/icons/close-circle.png" alt="close" class="circle-close">
+            </div>
+          </div>
+      </div>   
+      </div>
+      <div class="container-nav">
+        <div class="nav-head">
+          <span class="circle autowidth number-conection">418</span><p>Your Connections</p>
+        </div>
+        <div class="nav-flex2">
+          <div class="nav-flex moremargin ">
+            <img src="../Haciendo conexiones/images/adrien-s.jpg" alt="adrien Photo" class="circle-photo "> <h3>Adrien D</h3> 
+          </div>
+          <div class="nav-flex moremargin">
+            <img src="../Haciendo conexiones/images/anne-s.jpg" alt="anne Photo" class="circle-photo "> <h3>Anne J</h3> 
+          </div>
+          <div class="nav-flex moremargin">
+            <img src="../Haciendo conexiones/images/alayne-s.jpg" alt="alayne Photo" class="circle-photo "> <h3>Alayne T</h3> 
+          </div>
+          <div class="nav-flex moremargin">
+            <img src="../Haciendo conexiones/images/arry-s.jpg" alt="arry Photo" class="circle-photo "> <h3>Arry Y</h3> 
+          </div> 
+        </div>
+        <br><hr>
+        <a href="#">View More</a>
+
+      </div>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
