@@ -1,0 +1,113 @@
+
+/* heather */
+
+header {
+  background-color: #9FC5F8;
+  height: 70px;
+}
+
+header h1{
+  color: white;
+  font-weight: bold;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+
+}
+
+.cities ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* main */
+.city {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.city h2 {
+  margin-left: 20px;
+}
+
+.temperature{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex{
+  display: flex;
+}
+
+.wheater-day {
+  height: 500px;
+  background-color: #EEEEEE;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wheater-day p{
+  font-size: 20px;
+}
+
+.wheater-day img{
+  border-radius: 50%;
+  width: 80%;
+}
+
+.number-space{
+  display: flex;
+}
+
+.space {
+  margin: 0 30px;
+}
+
+.hot{
+  color: red;
+}
+
+.cold {
+  color: blue;
+}
+
+/* cookie */
+
+.cookie{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  border: 3px solid black;
+  margin: 10px;
+  position: fixed;
+  left: 150px;
+  bottom: 20px;
+  background-color: #EEEEEE;
+
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(7, 202, 202);
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  margin-right: 10px;
+}
